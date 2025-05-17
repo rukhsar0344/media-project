@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Securinc Enterprises</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.webp"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+    />
+</head>
+<body class="noSelect" style="overflow-y: auto;">
+
+<header>
+    <div class="center_content">
+        <div class="header_leftSide">
+            <img src="assets/images/logo.webp" alt="Navigation Bar Logo"/>
+            <div class="header_leftSide_text">
+                <div class="verticalLine"></div>
+                <p>
+                    Complete Home <br/>
+                    Remodeling <span class="circle"></span>
+                </p>
+            </div>
+        </div>
+
+        <div class="header_rightSide">
+            <nav>
+                <ul>
+                    <li><a href="#heroSection">Home</a></li>
+                    <li><a href="#aboutUs">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contactNow">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="socailLinks">
+                <a
+                        href="https://web.facebook.com/securinc.enterprises"
+                        target="_blank"
+                        aria-label="Facebook Link"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path
+                                d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"
+                        />
+                    </svg>
+                </a>
+                <a
+                        href="https://www.instagram.com/securinc_enterprises/"
+                        target="_blank"
+                        aria-label="Instagram Link"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                        />
+                    </svg>
+                </a>
+                <a
+                        href="https://www.pinterest.com/securinc_enterprises/"
+                        target="_blank"
+                        aria-label="Pinterest Link"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <path
+                                d="M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z"
+                        />
+                    </svg>
+                </a>
+                <a
+                        href="https://twitter.com/securinc_ent"
+                        target="_blank"
+                        aria-label="Twitter Link"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                        />
+                    </svg>
+                </a>
+                <a href="mailto:brsh@securincent.com" aria-label="Email Link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                                d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"
+                        />
+                    </svg>
+                </a>
+            </div>
+
+            <a href="tel:123456789" class="callToActionBTN">
+                <div class="callToActionBTN_text">
+                    <p><span>Call Us</span> Today!</p>
+                    <h1>569-456 7894</h1>
+                </div>
+            </a>
+        </div>
+
+        <div class="hamburger">
+            <img src="assets/images/icons/hamburger.svg" alt="Hamburger Icon"/>
+        </div>
+
+        <div class="mobileNavbar">
+            <div class="mobileNavbar_topPart">
+                <div class="logo">
+                    <img
+                            src="assets/images/logo.webp"
+                            alt="Top Navigation Logo - Mobile Version"
+                    />
+                </div>
+
+                <div class="closeIcon">
+                    <img src="assets/images/icons/closeIcon.svg" alt="Close Icon"/>
+                </div>
+            </div>
+
+            <nav>
+                <ul>
+                    <li class="mobileNavbarLink"><a href="#heroSection">Home</a></li>
+                    <li class="mobileNavbarLink"><a href="#aboutUs">About Us</a></li>
+                    <li class="mobileNavbarLink"><a href="#services">Services</a></li>
+                    <li class="mobileNavbarLink">
+                        <a href="#contactNow">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="socailLinks">
+                <a
+                        href="https://web.facebook.com/securinc_enterprises"
+                        target="_blank"
+                        class="mobileNavbarLink"
+                >
+                    <img src="assets/images/icons/facebook.svg" alt=""/>
+                </a>
+                <a
+                        href="https://www.instagram.com/securinc_enterprises/"
+                        target="_blank"
+                        class="mobileNavbarLink"
+                >
+                    <img src="assets/images/icons/instagram.svg" alt=""/>
+                </a>
+                <a
+                        href="https://www.pinterest.com/securinc_enterprises/"
+                        target="_blank"
+                        class="mobileNavbarLink"
+                >
+                    <img src="assets/images/icons/Pinterest.svg" alt=""/>
+                </a>
+                <a
+                        href="https://twitter.com/securinc_ent"
+                        target="_blank"
+                        class="mobileNavbarLink"
+                >
+                    <img src="assets/images/icons/Twitter_X.svg" alt=""/>
+                </a>
+                <a href="mailto:brsh@securincent.com" class="mobileNavbarLink">
+                    <img src="assets/images/icons/email.svg" alt=""/>
+                </a>
+            </div>
+
+            <a href="tel:123-456 7452" class="callToActionBTN mobileNavbarLink">
+                <div class="callToActionBTN_text">
+                    <p><span>Call Us</span> Today!</p>
+                    <h1>123-456 7891</h1>
+                </div>
+            </a>
+        </div>
+    </div>
+</header>
+
+<section class="heroSection" id="heroSection">
+    <div class="sliders">
+        <div class="slide01 active">
+            <div class="slide01_image">
+                <img src="assets/images/slider-image-1.webp" alt="Hero Image 1"/>
+            </div>
+            <div class="slideContent">
+                <div class="slideContent_topPart">
+                    <h4>QUALITY COMFORT LIVING</h4>
+                    <img src="assets/images/icons/Line.svg" alt="divider Line"/>
+                </div>
+                <h1>
+                    <span>Building Your Quality</span> <br/>
+                    of Comfortable Life
+                </h1>
+                <div class="btns stopSlider">
+                    <a href="#services">
+                        <span>Services</span>
+                        <img
+                                src="assets/images/icons/Arrow.svg"
+                                alt="Services Button Arrow"
+                        />
+                    </a>
+                    <a href="#contactNow">
+                        <span>Contact Now</span>
+                        <img
+                                src="assets/images/icons/Arrow_color.svg"
+                                alt="Contact Now Button Arrow"
+                        />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#aboutUs" class="scrolling">
+        <div class="scrolling_bottom">
+            <img src="assets/images/icons/Down_Arrow.svg" alt=""/>
+        </div>
+        <p>SCROLL</p>
+    </a>
+</section>
+
+<div class="section01">
+    <div class="center_content">
+        <div class="card01">
+            <img src="assets/images/icons/workers.svg" alt=""/>
+            <h1>Professional Team</h1>
+            <p>
+                Our professional team brings expertise, dedication, and creativity
+                to every project.
+            </p>
+        </div>
+        <div class="card01">
+            <img src="assets/images/icons/Maintenance.svg" alt=""/>
+            <h1>Quality Services</h1>
+            <p>
+                Delivering top-notch craftsmanship and exceptional service for your
+                home remodeling.
+            </p>
+        </div>
+        <div class="card01">
+            <img src="assets/images/icons/Time.svg" alt=""/>
+            <h1>Timely Completion</h1>
+            <p>
+                Timely completion guaranteed, transforming your home efficiently and
+                effectively.
+            </p>
+        </div>
+    </div>
+</div>
+
+<section class="section02" id="aboutUs">
+    <div class="center_content">
+        <div class="section02_leftSide">
+            <div class="heading">
+                <h4>WELCOME TO OUR COMPANY</h4>
+                <div class="horizontalLine"></div>
+                <h1>Securinc Enterprises</h1>
+            </div>
+
+            <p>
+                <b>Securinc Enterprises</b> is dedicated to transforming homes or
+                offices into personalized spaces that reflect the unique lifestyles
+                and preferences of our clients. Our team of skilled professionals
+                combines years of experience with meticulous attention to detail to
+                deliver breathtaking results. From initial consultation to project
+                completion, we prioritize client collaboration, ensuring every
+                aspect of the remodeling process is tailored to their needs and
+                desires.
+            </p>
+
+            <p>
+                With a focus on efficiency and quality, we complete projects on time
+                without compromising on excellence. Our streamlined processes and
+                efficient project management minimize disruption to our clients'
+                lives while ensuring timely completion.
+            </p>
+
+            <div class="btns">
+                <a href="#services">
+                    <span>Services</span>
+                    <img src="assets/images/icons/Arrow.svg" alt=""/>
+                </a>
+
+                <a href="#contactNow">
+                    <span>Contact Now</span>
+                    <img src="assets/images/icons/Arrow_color.svg" alt=""/>
+                </a>
+            </div>
+        </div>
+        <div class="section02_rightSide">
+            <img
+                    src="assets/images/about_us.webp"
+                    alt="About Us Section Image"
+            />
+        </div>
+    </div>
+</section>
+
+<div class="section03">
+    <div class="center_content">
+        <h1>Transforming Homes Beyond Expectations</h1>
+        <p>Envisioning Your Dream Space into Reality.</p>
+    </div>
+</div>
+
+<section class="section04" id="services">
+    <div class="centerContent">
+        <div class="topPart">
+            <h4>WHAT WE DO FOR OUR CLIENTS</h4>
+            <div class="horizontalLine"></div>
+            <h1>Our Services</h1>
+        </div>
+
+        <div class="cards">
+            <div class="card01">
+                <div class="card01_topPart">
+                    <img src="assets/images/icons/01.svg" alt=""/>
+                    <div class="card01_topPart_text">
+                        <div class="verticalLine"></div>
+                        <h1>Dry Wall Installation & Repair</h1>
+                    </div>
+                </div>
+
+                <p>
+                    Transform your space with our professional drywall installation
+                    and repair service, ensuring impeccable quality and customer
+                    satisfaction every time.
+                </p>
+            </div>
+
+            <div class="card01">
+                <div class="card01_topPart">
+                    <img src="assets/images/icons/02.svg" alt=""/>
+                    <div class="card01_topPart_text">
+                        <div class="verticalLine"></div>
+                        <h1>Plumbing Installation & Repair</h1>
+                    </div>
+                </div>
+
+                <p>
+                    Comprehensive plumbing installation and repair services,
+                    delivering reliability, efficiency, and expertise for your
+                    residential or commercial needs.
+                </p>
+            </div>
+
+            <div class="card01">
+                <div class="card01_topPart">
+                    <img src="assets/images/icons/03.svg" alt=""/>
+                    <div class="card01_topPart_text">
+                        <div class="verticalLine"></div>
+                        <h1>Electrical Installation & Repair</h1>
+                    </div>
+                </div>
+
+                <p>
+                    Expert electrical installation and repair services, ensuring
+                    safety, efficiency, and functionality for your home or business
+                    electrical systems.
+                </p>
+            </div>
+
+            <div class="card01">
+                <div class="card01_topPart">
+                    <img src="assets/images/icons/04.svg" alt=""/>
+                    <div class="card01_topPart_text">
+                        <div class="verticalLine"></div>
+                        <h1>Wood Floor Installation & Repair</h1>
+                    </div>
+                </div>
+
+                <p>
+                    We provide meticulous wood floor installation and repair services,
+                    revitalizing your space with timeless beauty and enduring quality
+                    craftsmanship.
+                </p>
+            </div>
+
+            <div class="card01">
+                <div class="card01_topPart">
+                    <img src="assets/images/icons/05.svg" alt=""/>
+                    <div class="card01_topPart_text">
+                        <div class="verticalLine"></div>
+                        <h1>Pop Corn Removal</h1>
+                    </div>
+                </div>
+
+                <p>
+                    Expert popcorn ceiling removal services to refresh your space,
+                    enhancing aesthetics and improving air quality for a more modern
+                    look.
+                </p>
+            </div>
+
+            <div class="card01">
+                <div class="card01_topPart">
+                    <img src="assets/images/icons/06.svg" alt=""/>
+                    <div class="card01_topPart_text">
+                        <div class="verticalLine"></div>
+                        <h1>Cabinet Repair & Installation</h1>
+                    </div>
+                </div>
+
+                <p>
+                    Professional cabinet repair and installation services, restoring
+                    functionality and adding elegance to your space with precision
+                    craftsmanship and attention to detail.
+                </p>
+            </div>
+
+            <div class="card01">
+                <div class="card01_topPart">
+                    <img src="assets/images/icons/07.svg" alt=""/>
+                    <div class="card01_topPart_text">
+                        <div class="verticalLine"></div>
+                        <h1>Tile Repair & Installation</h1>
+                    </div>
+                </div>
+
+                <p>
+                    We provide expert tile repair and installation services,
+                    revitalizing your space with durable, stylish tiling solutions
+                    tailored to your preferences.
+                </p>
+            </div>
+
+            <div class="card01">
+                <div class="card01_topPart">
+                    <img src="assets/images/icons/08.svg" alt=""/>
+                    <div class="card01_topPart_text">
+                        <div class="verticalLine"></div>
+                        <h1>Painting Interior & Exterior</h1>
+                    </div>
+                </div>
+
+                <p>
+                    We provide professional interior and exterior painting services,
+                    transforming spaces with quality craftsmanship and personalized
+                    color schemes for lasting beauty.
+                </p>
+            </div>
+
+            <div class="card01">
+                <div class="card01_topPart">
+                    <img src="assets/images/icons/09.svg" alt=""/>
+                    <div class="card01_topPart_text">
+                        <div class="verticalLine"></div>
+                        <h1>Doors & Windows Repair & Installation</h1>
+                    </div>
+                </div>
+
+                <p>
+                    We provide expert repair and installation services for doors and
+                    windows, enhancing security, energy efficiency, and aesthetics for
+                    your home or business.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_10" id="contactNow">
+    <div class="center_content">
+        <div class="section_10_leftSide">
+            <div class="section_10_leftSide_topPart">
+                <h4>Schedule your personalized consultation</h4>
+                <div class="horizontalLine"></div>
+                <h1>Book Your Consultation</h1>
+            </div>
+            <p>
+                Fill out the form to start transforming your space. Share a bit
+                about yourself and what <br/>
+                you're envisioning. We're excited to learn about your project and
+                will be in touch to <br/>
+                schedule your personalized consultation.
+            </p>
+
+            <h4 class="note">
+                “WE ARE AVAILABLE TO HELP YOU EVERY STEP OF THE WAY WITH YOUR
+                REMODELING PROJECT.”
+            </h4>
+
+            <div class="smallDetail">
+                <div class="location">
+                    <div class="location_leftSide emailPart">
+                        <img src="assets/images/icons/email-01.svg" alt=""/>
+                    </div>
+                    <div class="location_rightSide">
+                        <h4>E-mail</h4>
+                        <p>brsh@securincent.com</p>
+                    </div>
+                </div>
+
+                <div class="verticalLine"></div>
+
+                <div class="location">
+                    <div class="location_leftSide">
+                        <img src="assets/images/icons/Time_color.svg" alt=""/>
+                    </div>
+                    <div class="location_rightSide">
+                        <h4>Business Hours</h4>
+                        <p>10:00 a.m. - 6:00 p.m.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section_10_rightSide">
+            <form action="#" method="post" id="contactForm">
+                <div class="fullName">
+                    <input
+                            type="text"
+                            id="fullName"
+                            name="fullName"
+                            required
+                            autocomplete="given-name"
+                            aria-label="Name"
+                    />
+                    <span>Full Name</span>
+                </div>
+
+                <div class="emailAddress">
+                    <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                            autocomplete="on"
+                            aria-label="Email Address"
+                    />
+                    <span>Email Address</span>
+                </div>
+
+                <select
+                        name="options"
+                        id="securincServices"
+                        required
+                        aria-label="Securinc Services"
+                >
+                    <option selected="true" disabled="disabled">
+                        Project Type - Select One
+                    </option>
+                    <option
+                            value="Dry Wall Installation & Repair
+              "
+                    >
+                        Dry Wall Installation & Repair
+                    </option>
+                    <option
+                            value="Plumbing Installation & Repair
+              "
+                    >
+                        Plumbing Installation & Repair
+                    </option>
+                    <option
+                            value="Electrical Installation & Repair
+              "
+                    >
+                        Electrical Installation & Repair
+                    </option>
+                    <option value="Wood Floor Installation & Repair">
+                        Wood Floor Installation & Repair
+                    </option>
+                    <option value="Pop Corn Removal">Pop Corn Removal</option>
+                    <option value="Cabinet Repair & Installation">
+                        Cabinet Repair & Installation
+                    </option>
+                    <option value="Tile Repair & Installation">
+                        Tile Repair & Installation
+                    </option>
+                    <option value="Painting Interior & Exterior">
+                        Painting Interior & Exterior
+                    </option>
+                    <option value="Doors & Windows Repair & Installation">
+                        Doors & Windows Repair & Installation
+                    </option>
+                </select>
+
+                <div class="textArea">
+              <textarea
+                      name="describe"
+                      id="describe"
+                      cols="30"
+                      rows="10"
+                      required
+                      aria-label="Project Details"
+              ></textarea>
+                    <span>Brief Project Description</span>
+                </div>
+
+                <div class="buttonWithSubmitIcon">
+                    <div class="check">
+                        <img
+                                src="assets/images/icons/Clear_Mail.svg"
+                                alt="Success Icon Arrow"
+                        />
+                        <h4>Sent.</h4>
+                    </div>
+                    <button type="submit">
+                        <span> Send Message </span>
+                        <img
+                                src="assets/images/icons/Arrow.svg"
+                                alt="Success Button Arrow"
+                        />
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="centerContent">
+        <p>© Copyright 2025 – Securinc Enterprises</p>
+        <p>All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
